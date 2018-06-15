@@ -1,0 +1,25 @@
+{
+  "name": "@guahanweb/speaking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guahanweb/speaking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guahanweb/speaking/issues"
+  },
+  "homepage": "https://github.com/guahanweb/speaking#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "node-sass": "^4.9.0",
+    "node-yaml": "^3.1.1",
+    "pug": "^2.0.3"
+  }
+}
