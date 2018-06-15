@@ -1,0 +1,103 @@
+# "hidden: true" - hide events from the list
+# "keynote: true" - highlight event as a keynote
+events:
+  - name: Nodevember
+    url: https://www.nodevember.org
+    location: Nashville, TN
+    date: 11/20/2016
+    talk: roomdetective
+
+  - name: Seattle JS
+    url: https://www.meetup.com/seattlejs
+    location: Seattle, WA
+    date: 03/09/2017
+    talk: roomdetective
+
+  - name: Midwest JS
+    url: https://www.midwestjs.com
+    location: Minneapolis, MN
+    date: 08/17/2017
+    talk: roomdetective
+
+  - name: Open Source 101
+    url: https://www.opensource101.com
+    location: Raleigh, NC
+    date: 02/17/2018
+    talk: roomdetective
+
+  - name: BJU Computer Science
+    url: https://www.bju.edu/academics/programs/computer-science/
+    location: Greenville, SC
+    date: 02/22/2018
+    talk: cs-101
+
+  - name: NC State IT Club
+    url: https://www.csc.ncsu.edu/
+    location: Raleigh, NC
+    date: 03/20/2018
+    talk: cs-101
+
+  - name: Open Source 101
+    url: https://www.opensource101.com
+    location: Columbia, SC
+    date: 04/17/2018
+    talk: roomdetective
+
+  - name: Revolution Conf
+    url: https://www.revolutionconf.com
+    location: Virginia Beach, VA
+    date: 05/18/2018
+    talk: serverless-101
+
+  - name: JS Interactive
+    url: https://events.linuxfoundation.org/events/js-interactive-2018/
+    location: Vancouver, BC
+    date: 10/17/2018
+    talk: js-enterprise-adoption
+    keynote: true
+
+  - name: All Things Open
+    url: https://www.allthingsopen.org
+    location: Raleigh, NC
+    date: 10/23/2018
+    talk: serverless-101
+    hidden: true
+
+# "deprecated: true" - hide from the current talks list
+talks:
+  roomdetective:
+    name: Disney's Room Detective
+    description: Take a glimpse into a real-world IoT solution leveraging Raspberry Pi, passive-infrared sensors, and modern web technologies
+    tags: [node.js, iot]
+    deprecated: true
+
+  qa-email-automation:
+    name: "Automated Email Testing With Postfix and Docker"
+    description: Ephemeral environments are tremendously beneficial to automated testing, and this talk will consider how to build on for email
+    tags: [automation, qa, docker, testing]
+    sort: 4
+
+  cs-101:
+    name: Engineering Student Tech Talk
+    description:
+    tags: [tech talk, industry]
+    sort: 5
+
+  serverless-101:
+    name: Where Did All My Servers Go?
+    description:
+    tags: [serverless, architecture, cloud]
+    sort: 1
+
+  questions:
+    name: Learning How to Ask the Right Questions
+    description:
+    tags: [soft skills, learning, industry]
+    sort: 3
+
+  js-enterprise-adoption:
+    name: "JavaScript: Enterprise Adoption and Usage"
+    description:
+    tags: [keynote, js, enterprise]
+    sort: 2
+

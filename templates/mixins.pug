@@ -1,0 +1,12 @@
+mixin engagement(event)
+  article.event(class=event.keynote ? 'keynote' : '')
+    .wrapper
+      .title
+        h3
+          if event.url
+            a(href=event.url)= event.name
+          else
+            span= event.name
+      .details
+        span.location= event.location
+        span.date= event.date.formatted

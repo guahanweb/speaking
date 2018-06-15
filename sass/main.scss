@@ -1,0 +1,139 @@
+body {
+  font-family: "Nunito", "Open Sans", Arial, Verdana, sans-serif;
+  color: #444;
+  background-color: #f8f8f8;
+}
+
+.page-header {
+  margin-top: 4rem;
+  h1 {
+    font-weight: 300;
+    color: #f9bb1d;
+    font-size: 2.6rem;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.section {
+  background-color: #fff;
+  border-color: transparent;
+  border-radius: 2px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.12);
+  margin: 2rem auto;
+
+  & > .wrapper {
+    padding: 1rem 1.6rem;
+
+    & > header {
+      h1 {
+        margin: 15px 0 0;
+        padding: 6px 0;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 600;
+        color: #ffb119;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+      }
+    }
+  }
+}
+
+.event-list {
+  .event {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+
+    &.keynote {
+      .title {
+        h3::after {
+          display: inline-block;
+          content: "keynote";
+          color: #c10707;
+          padding-left: 6px;
+          font-size: 0.6rem;
+          line-height: 1rem;
+          vertical-align: top;
+          text-transform: uppercase;
+          font-weight: bold;
+          letter-spacing: 1px;
+        }
+      }
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .wrapper {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    .title {
+      padding: 4px 0;
+      h3 {
+        color: #26abff;
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    .details {
+      text-align: right;
+      span {
+        display: block;
+        &.location {
+          padding-top: 4px;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          font-weight: 600;
+          font-size: 0.8rem;
+          color: #aaa;
+        }
+
+        &.date {
+          padding-bottom: 4px;
+          letter-spacing: 1px;
+          font-weight: normal;
+          font-size: 0.9rem;
+          color: #000;
+        }
+      }
+    }
+
+    @media (max-width: 400px) {
+      .wrapper {
+        display: block;
+        .title, .details {
+          height: auto;
+          width: 100%;
+        }
+
+        .details {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #26abff;
+  transition: all 200ms ease 0s;
+
+  &:hover {
+    color: #0a6faf;
+  }
+}

@@ -1,0 +1,28 @@
+extends layout.pug
+include mixins.pug
+
+block topics
+  header
+    h1 Current Topics
+  each talk in talks
+    article.talk
+      .wrapper
+        h3= talk.name
+
+block engagements
+  - var show_upcoming = events.upcoming.length > 0
+  - var show_past = events.past.length > 0
+
+  if show_upcoming
+    header
+      h1 Upcoming
+    .event-list
+      each event in events.upcoming
+        +engagement(event)
+
+  if show_past
+    header
+      h1 Past Engagements
+    .event-list
+      each event in events.past
+        +engagement(event)

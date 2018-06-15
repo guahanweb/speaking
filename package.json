@@ -4,7 +4,9 @@
   "description": "",
   "main": "build.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"no tests...\"",
+    "prebuild": "mkdir -p dist/css",
+    "build": "OUTPUT_DIR=dist node build"
   },
   "repository": {
     "type": "git",
