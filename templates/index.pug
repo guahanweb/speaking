@@ -3,11 +3,15 @@ include mixins.pug
 
 block topics
   header
-    h1 Current Topics
+    h1 Current Talks
   each talk in talks
     article.talk
       .wrapper
         h3= talk.name
+        .tags
+          ul
+            each tag in talk.tags
+              li.tag= tag
 
 block engagements
   - var show_upcoming = events.upcoming.length > 0
