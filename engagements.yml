@@ -59,9 +59,8 @@ events:
   - name: All Things Open
     url: https://www.allthingsopen.org
     location: Raleigh, NC
-    date: 10/23/2018
+    date: 10/22/2018
     talk: serverless-101
-    hidden: true
 
 # "deprecated: true" - hide from the current talks list
 talks:
