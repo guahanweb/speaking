@@ -49,6 +49,12 @@ events:
     date: 05/18/2018
     talk: serverless-101
 
+  - name: Triangle Linux Users Group
+    url: https://trilug.org
+    location: Raleigh, NC
+    date: 07/12/2018
+    talk: serverless-101
+
   - name: JS Interactive
     url: https://events.linuxfoundation.org/events/js-interactive-2018/
     location: Vancouver, BC
@@ -60,12 +66,6 @@ events:
     url: https://www.allthingsopen.org
     location: Raleigh, NC
     date: 10/22/2018
-    talk: serverless-101
-
-  - name: Triangle Linux Users Group
-    url: https://trilug.org
-    location: Raleigh, NC
-    date: 07/12/2018
     talk: serverless-101
 
 # "deprecated: true" - hide from the current talks list
