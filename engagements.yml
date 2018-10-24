@@ -68,6 +68,24 @@ events:
     date: 10/22/2018
     talk: serverless-101
 
+  - name: JSConf HI
+    url: https://www.jsconfhi.com
+    location: Honolulu, HI
+    date: 02/07/2019
+    talk: serverless-101
+
+  - name: ConFoo Montreal
+    url: https://confoo.ca/en
+    location: Montreal, QC
+    date: 03/13/2019
+    talk: serverless-101
+
+  - name: ConFoo Montreal
+    url: https://confoo.ca/en
+    location: Montreal, QC
+    date: 03/13/2019
+    talk: asking-better-questions
+
 # "deprecated: true" - hide from the current talks list
 talks:
   roomdetective:
@@ -89,7 +107,7 @@ talks:
     sort: 5
 
   serverless-101:
-    name: Where Did All My Servers Go?
+    name: Where Have All My Servers Gone?
     description:
     tags: [serverless, architecture, cloud]
     sort: 1
@@ -105,4 +123,10 @@ talks:
     description:
     tags: [keynote, js, enterprise]
     sort: 2
+
+  asking-better-questions:
+    name: "Ask 10x Better Questions for More Effective Communication"
+    description:
+    tags: [soft skills, communication]
+    sort: 6
 
