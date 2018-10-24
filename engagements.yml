@@ -128,5 +128,5 @@ talks:
     name: "Ask 10x Better Questions for More Effective Communication"
     description:
     tags: [soft skills, communication]
-    sort: 6
+    deprecated: true
 
