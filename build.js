@@ -104,7 +104,10 @@ function loadEngagements() {
   }
 
   function sort(a, b) {
-    return parseInt(a.date.date.getTime()) <= parseInt(b.date.date.getTime());
+    const x = a.date.date.getTime();
+    const y = b.date.date.getTime();
+    console.info(`${x} <= ${y}`);
+    return b.date.date - a.date.date;
   }
 
   function formatDate(dt) {
