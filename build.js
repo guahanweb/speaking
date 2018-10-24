@@ -104,7 +104,7 @@ function loadEngagements() {
   }
 
   function sort(a, b) {
-    return a.date.date.getTime() <= b.date.date.getTime();
+    return parseInt(a.date.date.getTime()) <= parseInt(b.date.date.getTime());
   }
 
   function formatDate(dt) {

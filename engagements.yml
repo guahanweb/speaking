@@ -80,12 +80,6 @@ events:
     date: 03/13/2019
     talk: serverless-101
 
-  - name: ConFoo Montreal
-    url: https://confoo.ca/en
-    location: Montreal, QC
-    date: 03/13/2019
-    talk: asking-better-questions
-
 # "deprecated: true" - hide from the current talks list
 talks:
   roomdetective:
