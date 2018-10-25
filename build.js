@@ -106,7 +106,6 @@ function loadEngagements() {
   function sort(a, b) {
     const x = a.date.date.getTime();
     const y = b.date.date.getTime();
-    console.info(`${x} <= ${y}`);
     return b.date.date - a.date.date;
   }
 

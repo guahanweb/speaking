@@ -55,7 +55,7 @@ events:
     date: 07/12/2018
     talk: serverless-101
 
-  - name: JS Interactive
+  - name: Node + JS Interactive
     url: https://events.linuxfoundation.org/events/js-interactive-2018/
     location: Vancouver, BC
     date: 10/17/2018
