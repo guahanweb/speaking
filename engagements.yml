@@ -78,7 +78,7 @@ events:
     url: https://confoo.ca/en
     location: Montreal, QC
     date: 03/13/2019
-    talk: [questions, serverless-101]
+    talk: questions
 
   - name: Open Source 101
     url: https://opensource101.com
