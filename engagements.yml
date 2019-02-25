@@ -78,6 +78,12 @@ events:
     url: https://confoo.ca/en
     location: Montreal, QC
     date: 03/13/2019
+    talk: [questions, serverless-101]
+
+  - name: Open Source 101
+    url: https://opensource101.com
+    location: Columbia, SC
+    date: 04/18/2019
     talk: serverless-101
 
 # "deprecated: true" - hide from the current talks list
@@ -107,7 +113,7 @@ talks:
     sort: 1
 
   questions:
-    name: Learning How to Ask the Right Questions
+    name: Asking Better Questions
     description:
     tags: [soft skills, learning, industry]
     sort: 3
