@@ -86,6 +86,12 @@ events:
     date: 04/18/2019
     talk: serverless-101
 
+  - name: Music City Tech
+    url: https://www.musiccitycode.com
+    location: Nashville, TN
+    date: 09/05/2019
+    talk: serverless-101
+
 # "deprecated: true" - hide from the current talks list
 talks:
   roomdetective:
