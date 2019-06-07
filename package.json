@@ -20,8 +20,8 @@
   "homepage": "https://github.com/guahanweb/speaking#readme",
   "dependencies": {
     "bluebird": "^3.5.1",
-    "node-sass": "^4.9.4",
-    "node-yaml": "^3.1.1",
+    "node-sass": "4.12.0",
+    "node-yaml": "3.2.0",
     "pug": "^2.0.3"
   }
 }
