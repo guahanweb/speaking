@@ -92,6 +92,12 @@ events:
     date: 09/05/2019
     talk: serverless-101
 
+  - name: All Things Open 2021
+    url: https://allthingsopen.org
+    location: Raleigh, NC
+    date: 10/18/2021
+    talk: real-time-data
+
 # "deprecated: true" - hide from the current talks list
 talks:
   roomdetective:
@@ -104,31 +110,32 @@ talks:
     name: "Automated Email Testing With Postfix and Docker"
     description: Ephemeral environments are tremendously beneficial to automated testing, and this talk will consider how to build on for email
     tags: [automation, qa, docker, testing]
-    sort: 4
+    sort: 5
 
   cs-101:
     name: Engineering Student Tech Talk
     description:
     tags: [tech talk, industry]
-    sort: 5
+    deprecated: true
+    sort: 6
 
   serverless-101:
     name: Where Have All My Servers Gone?
     description:
     tags: [serverless, architecture, cloud]
-    sort: 1
+    sort: 2
 
   questions:
     name: Asking Better Questions
     description:
     tags: [soft skills, learning, industry]
-    sort: 3
+    sort: 4
 
   js-enterprise-adoption:
     name: "JavaScript: Enterprise Adoption and Usage"
     description:
     tags: [keynote, js, enterprise]
-    sort: 2
+    sort: 3
 
   asking-better-questions:
     name: "Ask 10x Better Questions for More Effective Communication"
@@ -136,3 +143,8 @@ talks:
     tags: [soft skills, communication]
     deprecated: true
 
+  real-time-data:
+    name: "Real Time Data with Node.js and Redis"
+    description:
+    tags: [js, data, architecture]
+    sort: 1
